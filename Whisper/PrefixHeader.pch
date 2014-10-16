@@ -1,0 +1,26 @@
+//
+//  PrefixHeader.pch
+//  Whisper
+//
+//  Created by kino on 14-10-11.
+//
+//
+
+
+#import <Availability.h>
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#import "DKMacro.h"
+#import "UIView+Utils.h"
+#import "UIViewController+Display.h"
+
+//
+
+
+#endif
